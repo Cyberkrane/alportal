@@ -12,6 +12,8 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { MockupsComponent } from './pages/mockups/mockups.component';
 import { ReelsComponent } from './pages/reels/reels.component';
 import { MyProfileComponent } from './pages/my-profile/my-profile.component';
+import { CardsComponent } from './pages/components/cards/cards.component';
+import { CardComponent } from './pages/components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { MyProfileComponent } from './pages/my-profile/my-profile.component';
     GalleryComponent,
     MockupsComponent,
     ReelsComponent,
-    MyProfileComponent
+    MyProfileComponent,
+    CardsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
