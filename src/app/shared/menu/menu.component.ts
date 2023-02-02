@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+titulo1 ='gallery'; 
+titulo2 ='mockups'; 
+titulo3 ='reels'; 
+titulo4 ='my profile';   
+
   constructor() { }
 
   ngOnInit(): void {
